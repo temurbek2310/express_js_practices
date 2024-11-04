@@ -1,0 +1,16 @@
+<h1>Hello from Handlebars</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates in odio, error tenetur harum sunt enim?
+    Nesciunt dolor beatae earum deleniti numquam? Quidem nostrum alias quia eligendi eveniet quasi, blanditiis eius
+    ducimus repudiandae ex cupiditate voluptatum officia minima similique laboriosam fugit beatae iusto molestias
+    praesentium. Consectetur illum eum explicabo?
+</p>
+
+<ul>
+    {{#if users}}
+    {{#each users}}
+    <li>{{name}}</li>
+    {{/each}}
+    {{else}}
+    <h1>hali userlar yuq</h1>
+    {{/if}}
+</ul>
